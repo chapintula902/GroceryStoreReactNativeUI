@@ -11,13 +11,20 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
+		6E418B67F67047328FC6DD04 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B13C6207036A43C8A8271A26 /* Poppins-Bold.ttf */; };
+		7D22CD7EE17741F480D8A9D8 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE693B6A4B7E4341811EA3D2 /* Poppins-Medium.ttf */; };
 		96905EF65AED1B983A6B3ABC /* libPods-GroceryStoreUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58EEBF8E8E6FB1BC6CAF49B5 /* libPods-GroceryStoreUI.a */; };
 		B18059E884C0ABDD17F3DC3D /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */; };
+		B6C0DD25B89C407BAE77D3E9 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92FF2434A6554D249514E2DC /* Poppins-Light.ttf */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		EB6B77820187407C9F801123 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0696FA1E72CC48968459895C /* Poppins-Regular.ttf */; };
+		FBE1124F24A24D1A8F324DCB /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B617CCCD459543D1A4D7960B /* Poppins-Black.ttf */; };
+		FC3FF78FB101433EACF88A86 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EE70BA2030E4677963C1225 /* Poppins-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		0696FA1E72CC48968459895C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* GroceryStoreUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryStoreUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = GroceryStoreUI/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = GroceryStoreUI/AppDelegate.mm; sourceTree = "<group>"; };
@@ -27,9 +34,14 @@
 		58EEBF8E8E6FB1BC6CAF49B5 /* libPods-GroceryStoreUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GroceryStoreUI.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C2E3173556A471DD304B334 /* Pods-GroceryStoreUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryStoreUI.debug.xcconfig"; path = "Target Support Files/Pods-GroceryStoreUI/Pods-GroceryStoreUI.debug.xcconfig"; sourceTree = "<group>"; };
 		7A4D352CD337FB3A3BF06240 /* Pods-GroceryStoreUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryStoreUI.release.xcconfig"; path = "Target Support Files/Pods-GroceryStoreUI/Pods-GroceryStoreUI.release.xcconfig"; sourceTree = "<group>"; };
+		92FF2434A6554D249514E2DC /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		9EE70BA2030E4677963C1225 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = GroceryStoreUI/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B13C6207036A43C8A8271A26 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		B617CCCD459543D1A4D7960B /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE693B6A4B7E4341811EA3D2 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		FAC715A2D49A985799AEE119 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-GroceryStoreUI/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +97,7 @@
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D65327D7A22EEC0BE12398D9 /* Pods */,
 				D7E4C46ADA2E9064B798F356 /* ExpoModulesProviders */,
+				D85C9DF4BA7842D19B5450C4 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -131,6 +144,20 @@
 				92DBD88DE9BF7D494EA9DA96 /* GroceryStoreUI */,
 			);
 			name = ExpoModulesProviders;
+			sourceTree = "<group>";
+		};
+		D85C9DF4BA7842D19B5450C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B617CCCD459543D1A4D7960B /* Poppins-Black.ttf */,
+				B13C6207036A43C8A8271A26 /* Poppins-Bold.ttf */,
+				92FF2434A6554D249514E2DC /* Poppins-Light.ttf */,
+				EE693B6A4B7E4341811EA3D2 /* Poppins-Medium.ttf */,
+				0696FA1E72CC48968459895C /* Poppins-Regular.ttf */,
+				9EE70BA2030E4677963C1225 /* Poppins-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +223,12 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
+				FBE1124F24A24D1A8F324DCB /* Poppins-Black.ttf in Resources */,
+				6E418B67F67047328FC6DD04 /* Poppins-Bold.ttf in Resources */,
+				B6C0DD25B89C407BAE77D3E9 /* Poppins-Light.ttf in Resources */,
+				7D22CD7EE17741F480D8A9D8 /* Poppins-Medium.ttf in Resources */,
+				EB6B77820187407C9F801123 /* Poppins-Regular.ttf in Resources */,
+				FC3FF78FB101433EACF88A86 /* Poppins-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

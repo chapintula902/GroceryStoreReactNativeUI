@@ -1,15 +1,42 @@
 
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import {Image, StyleSheet, Text, View } from 'react-native'
+import{IL_GetStarted_PNG} from '../../res/images/Illustrations'
+import { colors, fonts } from '../../res'
+
 
 const GetStarted  = () => {
   return (
-    <View>
-      <Text> we getting started my nigs </Text>
+    <View style={styles.screen}>
+     <Image 
+     source={IL_GetStarted_PNG} style={styles.image}
+     />
+     <View style={styles.wrapperSlogan}>
+       <Text style={styles.txtSlogan}>
+         Shop Your Daily
+       </Text>
+       <Text style={styles.txtSlogan}>
+         Necessary
+       </Text>
+     </View>
+
     </View>
   )
 }
 
 export default GetStarted;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+   screen: {flex: 1, paddingHorizontal: 20, justifyContent: 'center'},
+  image: {height: 225, width: '100%', resizeMode: 'stretch'},
+  wrapperSlogan: {marginTop: 51},
+  txtSlogan: {
+    fontSize: 30,
+    color: colors.primary,
+    textAlign: 'center',
+    fontFamily: 'bold',
+    fontFamily: fonts.SemiBold,
+
+  }
+
+})
