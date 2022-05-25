@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "GroceryStoreUI",
+    "slug": "GroceryStoreUI",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
