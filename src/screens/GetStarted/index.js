@@ -3,7 +3,7 @@ import React from 'react'
 import {Image, StyleSheet, Text, View } from 'react-native'
 import{IL_GetStarted_PNG} from '../../res/images/Illustrations'
 import { colors, fonts } from '../../res'
-import { Button } from '../../components/atoms'
+import { Button, Gap } from '../../components'
 
 const GetStarted  = () => {
   return (
@@ -19,6 +19,7 @@ const GetStarted  = () => {
          Necessary
        </Text>
      </View>
+     <Gap height={90} />
      <Button />
     </View>
   )
