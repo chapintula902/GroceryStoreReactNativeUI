@@ -3,7 +3,7 @@ import React from 'react'
 import {Image, StyleSheet, Text, View } from 'react-native'
 import{IL_GetStarted_PNG} from '../../res/images/Illustrations'
 import { colors, fonts } from '../../res'
-
+import { Button } from '../../components/atoms'
 
 const GetStarted  = () => {
   return (
@@ -19,7 +19,7 @@ const GetStarted  = () => {
          Necessary
        </Text>
      </View>
-
+     <Button />
     </View>
   )
 }
@@ -34,7 +34,6 @@ const styles = StyleSheet.create({
     fontSize: 30,
     color: colors.primary,
     textAlign: 'center',
-    fontFamily: 'bold',
     fontFamily: fonts.SemiBold,
 
   }
